@@ -181,62 +181,88 @@
 
 
     <!-- ═══════════════════════════════════════════
-         FEATURES GRID
+         COMPARATIVE TABLE — ¿Por qué elegir Lupinus Life?
     ═══════════════════════════════════════════ -->
     <section class="py-12 sm:py-16 md:py-20 lg:py-28">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
-            <div class="text-center mb-10 sm:mb-16 bg-white/50 backdrop-blur-md rounded-2xl p-4 md:p-8 shadow-sm border border-white/40 max-w-3xl mx-auto" data-aos="fade-up">
+            <div class="text-center mb-6 sm:mb-8 bg-white/50 backdrop-blur-md rounded-2xl p-4 md:p-8 shadow-sm border border-white/40 max-w-3xl mx-auto" data-aos="fade-up">
                 <h2 class="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-leaf-800 mb-3 sm:mb-4">
                     {{ t.features_titulo }}
                 </h2>
-                <p class="text-base md:text-lg text-center text-[#2A3B24] font-medium mt-3">
-                    {{ t.descubre_diferencia }}
-                </p>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
-                <!-- Feature 1 -->
-                <div class="card-hover bg-white/50 backdrop-blur-md rounded-2xl p-4 md:p-6 shadow-sm border border-white/40 text-center" data-aos="fade-up" data-aos-delay="0">
-                    <div class="icon-circle w-14 h-14 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6">
-                        <svg class="w-7 h-7 sm:w-8 sm:h-8 text-leaf-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-                        </svg>
-                    </div>
-                    <h3 class="font-display font-semibold text-base sm:text-lg text-leaf-800 mb-2 sm:mb-3">{{ t.feature_1_titulo }}</h3>
-                    <p class="text-leaf-500 text-sm leading-relaxed">{{ t.feature_1_desc }}</p>
-                </div>
+            <p class="text-base md:text-lg text-green-800 text-center mx-auto max-w-2xl mt-2 mb-10 font-medium">
+                {{ t.descubre_diferencia }}
+            </p>
 
-                <!-- Feature 2 -->
-                <div class="card-hover bg-white/50 backdrop-blur-md rounded-2xl p-4 md:p-6 shadow-sm border border-white/40 text-center" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-circle w-14 h-14 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6">
-                        <svg class="w-7 h-7 sm:w-8 sm:h-8 text-leaf-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
-                        </svg>
-                    </div>
-                    <h3 class="font-display font-semibold text-base sm:text-lg text-leaf-800 mb-2 sm:mb-3">{{ t.feature_2_titulo }}</h3>
-                    <p class="text-leaf-500 text-sm leading-relaxed">{{ t.feature_2_desc }}</p>
-                </div>
-
-                <!-- Feature 3 -->
-                <div class="card-hover bg-white/50 backdrop-blur-md rounded-2xl p-4 md:p-6 shadow-sm border border-white/40 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <div class="icon-circle w-14 h-14 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6">
-                        <svg class="w-7 h-7 sm:w-8 sm:h-8 text-leaf-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                        </svg>
-                    </div>
-                    <h3 class="font-display font-semibold text-base sm:text-lg text-leaf-800 mb-2 sm:mb-3">{{ t.feature_3_titulo }}</h3>
-                    <p class="text-leaf-500 text-sm leading-relaxed">{{ t.feature_3_desc }}</p>
-                </div>
-
-                <!-- Feature 4 -->
-                <div class="card-hover bg-white/50 backdrop-blur-md rounded-2xl p-4 md:p-6 shadow-sm border border-white/40 text-center" data-aos="fade-up" data-aos-delay="300">
-                    <div class="icon-circle w-14 h-14 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6">
-                        <svg class="w-7 h-7 sm:w-8 sm:h-8 text-leaf-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
-                        </svg>
-                    </div>
-                    <h3 class="font-display font-semibold text-base sm:text-lg text-leaf-800 mb-2 sm:mb-3">{{ t.feature_4_titulo }}</h3>
-                    <p class="text-leaf-500 text-sm leading-relaxed">{{ t.feature_4_desc }}</p>
+            <div class="max-w-5xl mx-auto bg-white/60 backdrop-blur-md rounded-3xl p-4 md:p-8 shadow-sm border border-white/40 mb-16 z-10 relative">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-sm md:text-base text-gray-800 min-w-[700px]">
+                        <thead class="border-b-2 border-[#2A3B24]">
+                            <tr>
+                                <th class="py-4 font-bold w-1/4 text-gray-600">Característica</th>
+                                <th class="py-4 font-bold w-1/3 text-orange-800 text-lg md:text-xl">{{ t.titulo_tremoco }}</th>
+                                <th class="py-4 font-bold w-1/3 text-[#2A3B24] text-lg md:text-xl">{{ t.titulo_lupino }}</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-white/60">
+                            <tr>
+                                <td class="py-4 font-semibold">Perfil Proteico</td>
+                                <td class="py-4 pr-4">~15g (Básico, energia a curto prazo)</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">✅ 24g (Premium, saciedade prolongada)</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">O Segredo da Casca (Consumo)</td>
+                                <td class="py-4 pr-4">Descartada. É espessa, dura e atua como uma esponja para a água salgada.</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">✅ Consumida a 100%. A pele é extrafina, macia e funde-se com o grão a cada trinca.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">Fibras e Digestão</td>
+                                <td class="py-4 pr-4">Perdes metade da fibra ao deitar fora a casca no prato.</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">✅ Aproveitamento total. Fibra integral e prebiótica intacta, pois comes o grão inteiro.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">Conveniência e Limpeza</td>
+                                <td class="py-4 pr-4">Suja as mãos com líquidos e exige um prato para cuspir as cascas.</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">✅ 100% On-the-Go. Sem lixo, sem líquidos a escorrer, abre e come em movimento.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">Qualidade e Calibre</td>
+                                <td class="py-4 pr-4">Produto de massa, tamanhos mistos e irregulares</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">✅ Seleção Premium (8mm), origem agroecológica</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">Estado e Textura</td>
+                                <td class="py-4 pr-4">Escorregadio e mole</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">✅ Firme, denso e com um crunch perfeito (com o milho)</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">Sódio / Sal</td>
+                                <td class="py-4 pr-4">Muito elevado (provoca sede e retenção de líquidos)</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">✅ Equilibrado e natural (focado na saúde cardiovascular)</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">Gorduras Boas</td>
+                                <td class="py-4 pr-4">Níveis residuais</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">✅ Rico em Ómegas 3, 6 e 9 (energia cerebral)</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">Preço e Volume</td>
+                                <td class="py-4 pr-4 text-green-700">✅ Hiper-económico, o clássico "snack de cêntimos"</td>
+                                <td class="py-4 pl-4">Investimento nutricional de valor premium</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">Nostalgia e Tradição</td>
+                                <td class="py-4 pr-4 text-green-700">✅ O clássico indiscutível das esplanadas e festas de verão</td>
+                                <td class="py-4 pl-4">Um conceito novo focado na performance desportiva/diária</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 font-semibold">Frescura Húmida</td>
+                                <td class="py-4 pr-4 text-green-700">✅ Proporciona frescura imediata por estar mergulhado em água</td>
+                                <td class="py-4 pl-4">É um snack seco (ideal para acompanhar a tua bebida favorita)</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
