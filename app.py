@@ -64,6 +64,9 @@ TRANSLATIONS = {
         'nutrition_disclaimer': '* Valores orientativos. Consulta a embalagem para informação detalhada.',
         'footer_tagline': 'El teu novo superalimento · O teu novo superalimento',
         'footer_copyright': '© 2026 Lupinus Life. Todos os direitos reservados.',
+        'contacto_titulo': 'Fala Connosco',
+        'contacto_desc': 'Tens alguma dúvida ou queres saber mais? Envia-nos um email.',
+        'contacto_email': 'info@lupinuslife.com',
         'img_nutricion': 'informacion-portugues.PNG',
     },
     'es': {
@@ -127,6 +130,9 @@ TRANSLATIONS = {
         'nutrition_disclaimer': '* Valores orientativos. Consulta el envase para información detallada.',
         'footer_tagline': 'Tu nuevo superalimento ha llegado',
         'footer_copyright': '© 2026 Lupinus Life. Todos los derechos reservados.',
+        'contacto_titulo': 'Hablemos',
+        'contacto_desc': '¿Tienes alguna duda o quieres saber más? Envíanos un correo.',
+        'contacto_email': 'info@lupinuslife.com',
         'img_nutricion': 'informacion-español.png',
     },
     'en': {
@@ -190,6 +196,9 @@ TRANSLATIONS = {
         'nutrition_disclaimer': '* Approximate values. Check the packaging for detailed information.',
         'footer_tagline': 'Your new superfood has arrived',
         'footer_copyright': '© 2026 Lupinus Life. All rights reserved.',
+        'contacto_titulo': 'Get in Touch',
+        'contacto_desc': 'Have any questions or want to know more? Send us an email.',
+        'contacto_email': 'info@lupinuslife.com',
         'img_nutricion': 'informacion-ingles.png',
     },
 }
