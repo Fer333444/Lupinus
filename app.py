@@ -66,7 +66,7 @@ TRANSLATIONS = {
         'footer_copyright': '© 2026 Lupinus Life. Todos os direitos reservados.',
         'contacto_titulo': 'Fala Connosco',
         'contacto_desc': 'Tens alguma dúvida ou queres saber mais? Envia-nos um email.',
-        'contacto_email': 'info@lupinuslife.com',
+        'contacto_email': 'lupinuslife.ec@gmail.com',
         'img_nutricion': 'informacion-portugues.PNG',
     },
     'es': {
@@ -132,7 +132,7 @@ TRANSLATIONS = {
         'footer_copyright': '© 2026 Lupinus Life. Todos los derechos reservados.',
         'contacto_titulo': 'Hablemos',
         'contacto_desc': '¿Tienes alguna duda o quieres saber más? Envíanos un correo.',
-        'contacto_email': 'info@lupinuslife.com',
+        'contacto_email': 'lupinuslife.ec@gmail.com',
         'img_nutricion': 'informacion-español.png',
     },
     'en': {
@@ -198,7 +198,7 @@ TRANSLATIONS = {
         'footer_copyright': '© 2026 Lupinus Life. All rights reserved.',
         'contacto_titulo': 'Get in Touch',
         'contacto_desc': 'Have any questions or want to know more? Send us an email.',
-        'contacto_email': 'info@lupinuslife.com',
+        'contacto_email': 'lupinuslife.ec@gmail.com',
         'img_nutricion': 'informacion-ingles.png',
     },
 }
