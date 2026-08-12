@@ -173,7 +173,7 @@
 
     <div class="w-full max-w-3xl mx-auto my-8 px-4 z-10 relative">
         <div class="bg-white/60 backdrop-blur-md rounded-3xl p-4 md:p-8 shadow-sm border border-white/40 flex justify-center">
-            <img src="{{ url_for('static', filename='Informacion.png') }}" alt="Informação Nutricional" class="w-full max-w-2xl h-auto object-contain select-none">
+            <img src="{{ url_for('static', filename='Informacion.png') }}" alt="{{ t.nutrition_titulo }}" class="w-full max-w-2xl h-auto object-contain select-none">
         </div>
     </div>
 
@@ -198,66 +198,66 @@
                     <table class="w-full text-left text-sm md:text-base text-gray-800 min-w-[700px]">
                         <thead class="border-b-2 border-[#2A3B24]">
                             <tr>
-                                <th class="py-4 font-bold w-1/4 text-gray-600">Característica</th>
+                                <th class="py-4 font-bold w-1/4 text-gray-600">{{ t.comp_header }}</th>
                                 <th class="py-4 font-bold w-1/3 text-orange-800 text-lg md:text-xl">{{ t.titulo_tremoco }}</th>
                                 <th class="py-4 font-bold w-1/3 text-[#2A3B24] text-lg md:text-xl">{{ t.titulo_lupino }}</th>
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-white/60">
                             <tr>
-                                <td class="py-4 font-semibold">Perfil Proteico</td>
-                                <td class="py-4 pr-4">~15g (Básico, energia a curto prazo)</td>
-                                <td class="py-4 pl-4 font-medium text-green-800">✅ 24g (Premium, saciedade prolongada)</td>
+                                <td class="py-4 font-semibold">{{ t.c1_tit }}</td>
+                                <td class="py-4 pr-4">{{ t.c1_t }}</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">{{ t.c1_l }}</td>
                             </tr>
                             <tr>
-                                <td class="py-4 font-semibold">O Segredo da Casca (Consumo)</td>
-                                <td class="py-4 pr-4">Descartada. É espessa, dura e atua como uma esponja para a água salgada.</td>
-                                <td class="py-4 pl-4 font-medium text-green-800">✅ Consumida a 100%. A pele é extrafina, macia e funde-se com o grão a cada trinca.</td>
+                                <td class="py-4 font-semibold">{{ t.c2_tit }}</td>
+                                <td class="py-4 pr-4">{{ t.c2_t }}</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">{{ t.c2_l }}</td>
                             </tr>
                             <tr>
-                                <td class="py-4 font-semibold">Fibras e Digestão</td>
-                                <td class="py-4 pr-4">Perdes metade da fibra ao deitar fora a casca no prato.</td>
-                                <td class="py-4 pl-4 font-medium text-green-800">✅ Aproveitamento total. Fibra integral e prebiótica intacta, pois comes o grão inteiro.</td>
+                                <td class="py-4 font-semibold">{{ t.c3_tit }}</td>
+                                <td class="py-4 pr-4">{{ t.c3_t }}</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">{{ t.c3_l }}</td>
                             </tr>
                             <tr>
-                                <td class="py-4 font-semibold">Conveniência e Limpeza</td>
-                                <td class="py-4 pr-4">Suja as mãos com líquidos e exige um prato para cuspir as cascas.</td>
-                                <td class="py-4 pl-4 font-medium text-green-800">✅ 100% On-the-Go. Sem lixo, sem líquidos a escorrer, abre e come em movimento.</td>
+                                <td class="py-4 font-semibold">{{ t.c4_tit }}</td>
+                                <td class="py-4 pr-4">{{ t.c4_t }}</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">{{ t.c4_l }}</td>
                             </tr>
                             <tr>
-                                <td class="py-4 font-semibold">Qualidade e Calibre</td>
-                                <td class="py-4 pr-4">Produto de massa, tamanhos mistos e irregulares</td>
-                                <td class="py-4 pl-4 font-medium text-green-800">✅ Seleção Premium (8mm), origem agroecológica</td>
+                                <td class="py-4 font-semibold">{{ t.c5_tit }}</td>
+                                <td class="py-4 pr-4">{{ t.c5_t }}</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">{{ t.c5_l }}</td>
                             </tr>
                             <tr>
-                                <td class="py-4 font-semibold">Estado e Textura</td>
-                                <td class="py-4 pr-4">Escorregadio e mole</td>
-                                <td class="py-4 pl-4 font-medium text-green-800">✅ Firme, denso e com um crunch perfeito (com o milho)</td>
+                                <td class="py-4 font-semibold">{{ t.c6_tit }}</td>
+                                <td class="py-4 pr-4">{{ t.c6_t }}</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">{{ t.c6_l }}</td>
                             </tr>
                             <tr>
-                                <td class="py-4 font-semibold">Sódio / Sal</td>
-                                <td class="py-4 pr-4">Muito elevado (provoca sede e retenção de líquidos)</td>
-                                <td class="py-4 pl-4 font-medium text-green-800">✅ Equilibrado e natural (focado na saúde cardiovascular)</td>
+                                <td class="py-4 font-semibold">{{ t.c7_tit }}</td>
+                                <td class="py-4 pr-4">{{ t.c7_t }}</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">{{ t.c7_l }}</td>
                             </tr>
                             <tr>
-                                <td class="py-4 font-semibold">Gorduras Boas</td>
-                                <td class="py-4 pr-4">Níveis residuais</td>
-                                <td class="py-4 pl-4 font-medium text-green-800">✅ Rico em Ómegas 3, 6 e 9 (energia cerebral)</td>
+                                <td class="py-4 font-semibold">{{ t.c8_tit }}</td>
+                                <td class="py-4 pr-4">{{ t.c8_t }}</td>
+                                <td class="py-4 pl-4 font-medium text-green-800">{{ t.c8_l }}</td>
                             </tr>
                             <tr>
-                                <td class="py-4 font-semibold">Preço e Volume</td>
-                                <td class="py-4 pr-4 text-green-700">✅ Hiper-económico, o clássico "snack de cêntimos"</td>
-                                <td class="py-4 pl-4">Investimento nutricional de valor premium</td>
+                                <td class="py-4 font-semibold">{{ t.c9_tit }}</td>
+                                <td class="py-4 pr-4 text-green-700">{{ t.c9_t }}</td>
+                                <td class="py-4 pl-4">{{ t.c9_l }}</td>
                             </tr>
                             <tr>
-                                <td class="py-4 font-semibold">Nostalgia e Tradição</td>
-                                <td class="py-4 pr-4 text-green-700">✅ O clássico indiscutível das esplanadas e festas de verão</td>
-                                <td class="py-4 pl-4">Um conceito novo focado na performance desportiva/diária</td>
+                                <td class="py-4 font-semibold">{{ t.c10_tit }}</td>
+                                <td class="py-4 pr-4 text-green-700">{{ t.c10_t }}</td>
+                                <td class="py-4 pl-4">{{ t.c10_l }}</td>
                             </tr>
                             <tr>
-                                <td class="py-4 font-semibold">Frescura Húmida</td>
-                                <td class="py-4 pr-4 text-green-700">✅ Proporciona frescura imediata por estar mergulhado em água</td>
-                                <td class="py-4 pl-4">É um snack seco (ideal para acompanhar a tua bebida favorita)</td>
+                                <td class="py-4 font-semibold">{{ t.c11_tit }}</td>
+                                <td class="py-4 pr-4 text-green-700">{{ t.c11_t }}</td>
+                                <td class="py-4 pl-4">{{ t.c11_l }}</td>
                             </tr>
                         </tbody>
                     </table>
